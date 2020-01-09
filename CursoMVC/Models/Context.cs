@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CursoMVC.Models;
 
 namespace CursoMVC.Models
 {
@@ -15,5 +16,6 @@ namespace CursoMVC.Models
             optionsBuilder.UseSqlServer("Data Source=DESKTOP-MA7IQHE;Initial Catalog=MVC;Integrated Security=True");
 
         }
+        public DbSet<CursoMVC.Models.Estoque> Estoque { get; set; }
     }
 }

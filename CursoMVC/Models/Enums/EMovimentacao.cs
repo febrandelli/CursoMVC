@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace CursoMVC.Models.Enums
+{
+    public enum EMovimentacao
+    {
+        Entrada,
+        Saida
+    }
+}
