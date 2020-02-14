@@ -12,7 +12,7 @@ namespace CursoMVC.Models
         public DbSet<Produto> Produtos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-MA7IQHE;Initial Catalog=MVC;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=master;Integrated Security=True");
 
         }
     }
